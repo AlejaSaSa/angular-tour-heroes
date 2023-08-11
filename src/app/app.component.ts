@@ -8,3 +8,7 @@ import { Component } from '@angular/core';
 export class AppComponent {
   title = 'angular-tour-heroes';
 }
+export interface Hero{
+  id: number;
+  name:string;
+}

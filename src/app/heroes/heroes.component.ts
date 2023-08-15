@@ -1,4 +1,4 @@
-import { HEROES } from 'src/app/mock-heroes';
+import { HEROES } from '../heroes';
 import { Component } from '@angular/core';
 import { Hero } from '../hero';
 

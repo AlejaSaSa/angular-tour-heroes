@@ -13,6 +13,6 @@ export class HeroesComponent {
     id:1,
     name:'Windstorm'
   };
-  heroes:HEROES;
+   heroes:HEROES;
 }
 

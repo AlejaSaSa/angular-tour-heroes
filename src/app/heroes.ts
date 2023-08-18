@@ -11,4 +11,4 @@ export const HEROES:Hero[]=[
     {id:8, name:'Price-Bravo 6'},
     {id:9, name:'Beck-Spray Paint'},
     {id:10, name:'Tempest'}
-]
+];

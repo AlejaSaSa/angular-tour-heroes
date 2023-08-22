@@ -1,17 +1,10 @@
-<h2>heroe</h2>
-<h2>{{hero.name}} Details</h2>
-<div><span>id: </span>{{hero.id}}</div>
-<div><span>name: </span>{{hero.name}}</div>
-<h2>{{hero.name|uppercase}}Details</h2>
-
-<h2>My heroes </h2>
-<ul class="heroes">
-    <li>
-        <button type="button">
-            <span class="badge">{{hero.id}}</span>
-            <span class="name">{{hero.name}}</span>
-        </button>
+<p> heroe-component works! </p>
+<ul>
+    <li *ngFor="let Heroe of HEROES">
+        <div><span>Id:</span><span>{{Heroe.id}}</span></div>
+        <div><span>name:</span>
+            <span class="data">{{Heroe.name | uppercase}}</span>
+            <input name="name1"[(ngModel)]="Heroe.name" placeholder="name of heroe"/>
+        </div>
     </li>
 </ul>
-<li *ngfor="let hero of heroes"></li>
-<!--router-outlet></router-outlet-->

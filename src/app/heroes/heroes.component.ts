@@ -17,7 +17,7 @@ export class HeroesComponent {
     {id:5, name:'Viktor Reznov',description:'a'},
     {id:6, name:'Cassius',description:'a'},
     {id:7, name:'Naomi Mizushima',description:'a'},
-    {id:8, name:'Price-Bravo 6',description:'a'},
+    {id:8, name:'Price-Bravo 6',description:'Conocido como Bravo 6, el capitán Price es un francotirador del Regimiento de Servicio Aéreo Especial británico y el lider del equipo Bravo.'},
     {id:9, name:'Beck-Spray Paint',description:'a'},
     {id:10, name:'Tempest',description:'a'}
 ]; 

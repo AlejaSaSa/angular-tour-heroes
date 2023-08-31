@@ -40,5 +40,15 @@ button:disabled{
 
 /*everywhere else */
 *{
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Times New Roman', Times, serif
+}
+head{
+    background-color: orangered;
+}
+    body {
+    background-color: rgb(245, 175, 77);
+}
+h1 {
+    color:black;
+    padding: 60px;
 }
